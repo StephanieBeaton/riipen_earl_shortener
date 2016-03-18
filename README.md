@@ -17,6 +17,8 @@ npm install
 
 npm start        <— starts server
 
+in the browser enter  http://localhost:3000   to display the one page earl shortener app
+
 In the application enter   http://www.google.com  and click “Add Url” button
 
 The newly entered url will display in the url list along with the short_url for the new url
