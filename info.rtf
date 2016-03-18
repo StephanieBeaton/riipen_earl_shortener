@@ -1,0 +1,53 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf340
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 //  precursor\
+//  http://mherman.org/blog/2015/02/12/postgresql-and-nodejs/#.VtiXH5MrLUo\
+\
+// http://mherman.org/blog/2015/10/22/node-postgres-sequelize/#.VtiW1JMrLUo\
+\
+\
+express earl-shortener\
+\
+cd earl-shortener\
+npm install\
+\
+// run the app\
+npm start\
+\
+createdb earl-shortener\
+\
+// dropdb earl-shortener\
+\
+node models/database.js\
+\
+// ===============================================\
+// Server Side Routes\
+// ===============================================\
+\
+// test inserting an url\
+// \'85 caution  textEdit is combining the two dashes !!!\
+// curl \'97data \'93original_url=http://www.riipen.com\'94  http://127.0.0.1:3000/api/v1/urls\
+\
+\
+\
+\
+// ===============================================\
+// to run the application\
+// ===============================================\
+\
+git clone xxxx\
+cd earl-shortener\
+npm install\
+npm start        <\'97 starts server\
+\
+// enter   http://www.google.com  and click \'93Add Url\'94 button\
+\
+// go to browser and enter     http://localhost:3000/[short_url]\
+//  \'85.. where [short_url] shows up in list at bottom of the page.\
+\
+// browser should display    http://www.google.com  page\
+}
